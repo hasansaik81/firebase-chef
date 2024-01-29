@@ -7,6 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 console.log('environment variable',import.meta.env.VITE_apikey)
+// console.log("variable imprt", import.meta.env.VITE_PASS)
 const firebaseConfig = {
   apiKey:import.meta.env.VITE_APIKEY ,
   authDomain:import.meta.env. VITE_AUTHDOMAIN,

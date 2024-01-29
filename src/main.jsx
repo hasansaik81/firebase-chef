@@ -27,9 +27,9 @@ const router=createBrowserRouter([
       },
       {
         path: '/ChefRecipes/:id',
-        element:  <PrivateRoute>   <ChefRecipes></ChefRecipes> </PrivateRoute>,
-        // loader : ({params}) => fetch('https://assignment-10-master-chefs-ariaanahmed.vercel.app/chefs/')
-        loader:({params})=>fetch(' https://firebase-chef-d6bth0bd9-hasans-projects-3bda48be.vercel.app')
+        element:  <PrivateRoute>   <ChefRecipes/> </PrivateRoute>,
+      
+        loader:({params})=>fetch('https://my-server-d3mdc9wg0-hasans-projects-3bda48be.vercel.app/')
       },
       {
         path: '/chefs',
